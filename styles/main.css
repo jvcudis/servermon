@@ -1,0 +1,175 @@
+/* Blog Post Section CSS */
+.post {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.post__header {
+  padding: 0;
+  margin: 0px 0px 25px 0px;
+  text-align: center;
+}
+
+.post__header > h1 {
+  font-family: 'Satisfy';
+  font-size: 60px;
+  font-weight: 700;
+  color: rgba(85, 85, 85, 1);
+}
+
+.post__header > p {
+  font-family: 'Fira Sans';
+}
+
+.post__content {
+  margin: 0;
+  font-family: 'Source Sans Pro';
+  color: #555;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.post__content > p,
+.post__content > div {
+  padding-bottom: 15px;
+}
+
+.post__content > p:first-child:first-letter {
+  color: #555;
+  float: left;
+  font-family: 'Satisfy';
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+.image-overlay-container {}
+
+.thoughts > .post__content {
+  margin: 0 100px;
+}
+
+.recipe > .post__content {
+  text-align: center;
+}
+
+.recipe > .post__content > img {
+  padding-bottom: 20px;
+}
+
+.recipe-box > h6 {
+  text-align: center;
+  text-decoration: underline;
+  padding: 20px 0;
+}
+
+.recipe-box__ingredients {
+  width: 50%;
+  margin: 0 auto;
+  list-style: none;
+  font-family: 'Fira Sans';
+}
+
+.recipe-box__ingredients > hr {
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 100%;
+  border-top: 1px dotted;
+  margin-bottom: 10px;
+}
+
+.recipe-box__ingredients > li {
+  display: flex;
+}
+
+.recipe-box__ingredients > li > span:first-child {
+  align-self: flex-start;
+  font-weight: bold;
+}
+
+.recipe-box__ingredients > li > span:last-child {
+  margin-left: auto;
+}
+
+.recipe-box__instructions {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.recipe-box__instructions > p {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.recipe-box__instructions > p > span {
+  font-weight: bold;
+  font-size: small;
+}
+
+.bento > .post__content {
+  position: relative;
+}
+
+.bento > .post__content > div > canvas {
+  z-index: 0;
+}
+
+.bento > .post__content > div > .bento-links {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.bento > .post__content > div > .bento-links > span {
+  position: absolute;
+  font-family: 'Fira Sans';
+  text-transform: uppercase;
+}
+
+.baking > .post__content > .post__content-canvas > div {
+  display: flex;
+}
+
+.recipe-photofied > .post__content > .recipe-photo-box {
+  position: relative;
+  padding: 0;
+}
+
+.recipe-photofied > .post__content > .recipe-photo-box:last-child {
+  padding-bottom: 20px;
+}
+
+.recipe-photofied > .post__content > .recipe-photo-box > img {
+  z-index: 0;
+}
+
+.recipe-photofied > .post__content > .recipe-photo-box > .recipe-photo-box-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.about > .title > .profile-pic {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.about > .title > .profile-pic > img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
